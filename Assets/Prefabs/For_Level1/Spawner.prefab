@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4175037487821434627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4175037487821434629}
+  - component: {fileID: 2129229292854990575}
+  - component: {fileID: 6380959221314412066}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Respawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4175037487821434629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4175037487821434627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129229292854990575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4175037487821434627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6510a7457aa6143926535b0584838f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy1: {fileID: 1862517648145964828, guid: 05da49eee60a75240bea12fe0126c45b, type: 3}
+  count1: 6
+  enemy2: {fileID: 414367783509822171, guid: 3057ce3bf05df664d8c392ca067dcee5, type: 3}
+  count2: 6
+  enemy3: {fileID: 4831693431723519891, guid: cba767f12c2c06b438d07a27cd7202d8, type: 3}
+  count3: 6
+  enemy4: {fileID: 2437278389642329716, guid: 832c716249831fd458da6aceda5f3fc7, type: 3}
+  count4: 6
+--- !u!114 &6380959221314412066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4175037487821434627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17f60e1633410048a1663c9d83bd5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spamer: {fileID: 7156752660780132826, guid: 2ca9f6b02ed1f7849a7ec5cddca229b5, type: 3}
